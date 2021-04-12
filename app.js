@@ -31,15 +31,15 @@
 //     },2000)
 // }
 
-//  const user=login('jyabnt@gmai.com',123,user=>{
-//     console.log(user);
-//     getUserVideos(user,videos=>{
-//         console.log(videos);
-//         videoDetails(videos[0],(title)=>{
-//             console.log(title)
-//         })
-//     })
-//  });
+ const user=login('jyabnt@gmai.com',123,user=>{
+    console.log(user);
+    getUserVideos(user,videos=>{
+        console.log(videos);
+        videoDetails(videos[0],(title)=>{
+            console.log(title)
+        })
+    })
+ });
  
 
 // console.log('finish');
